@@ -7,8 +7,8 @@
 <b><a href="/sprint_1/1_functionsResult.js">Значения функции</a></b>
 </summary>
 
-#### Условие: 
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/A/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/A/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107335505/)
 
 Вася делает тест по математике: вычисляет значение функций в различных точках. 
 Стоит отличная погода, и друзья зовут Васю гулять. 
@@ -66,8 +66,8 @@
 <b><a href="/sprint_1/2_evenOdds.js">Чётные и нечётные числа</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/B/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/B/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107338450/)
 
 Представьте себе онлайн-игру для поездки в метро: игрок нажимает на кнопку, 
 и на экране появляются три случайных числа. Если все три числа оказываются 
@@ -138,8 +138,8 @@
 <b><a href="/sprint_1/3_neighbours.js">Соседи</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/C/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/C/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107344288/)
 
 Дана матрица. Нужно написать функцию, которая для элемента возвращает 
 всех его соседей. Соседним считается элемент, находящийся от текущего 
@@ -191,8 +191,8 @@
 <b><a href="/sprint_1/4_weatherChaotic.js">Хаотичность погоды</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/D/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/D/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107349195/)
 
 Метеорологическая служба вашего города решила исследовать погоду новым способом.
 Под температурой воздуха в конкретный день будем понимать максимальную
@@ -240,8 +240,8 @@
 <b><a href="/sprint_1/5_theLongestWord.js">Самое длинное слово</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/E/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/E/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107350977/)
 
 Чтобы подготовиться к семинару, Гоше надо прочитать статью по эффективному 
 менеджменту. Так как Гоша хочет спланировать день заранее, ему необходимо 
@@ -286,8 +286,8 @@
 <b><a href="/sprint_1/6_palindrom.js">Палиндром</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/F/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/F/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/107415536/)
 
 Помогите Васе понять, будет ли фраза палиндромом. Учитываются только буквы и 
 цифры, заглавные и строчные буквы считаются одинаковыми.
@@ -328,8 +328,8 @@
 <b><a href="/sprint_1/7_remoteWork.js">Работа из дома</a></b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/G/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/G/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22449/run-report/108309836/)
 
 Вася реализовал функцию, которая переводит целое число из десятичной системы в 
 двоичную. Но, кажется, она получилась не очень оптимальной.
@@ -369,8 +369,7 @@
 <b>Ближайший ноль Финальная задача</b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/A/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/A/)
 
 Тимофей ищет место, чтобы построить себе дом. Улица, на которой он хочет жить, 
 имеет длину n, то есть состоит из n одинаковых идущих подряд участков. 
@@ -421,8 +420,7 @@
 <b>Ловкость рук Финальная задача</b>
 </summary>
 
-#### Условие:
-[Ссылка](https://contest.yandex.ru/contest/22449/problems/B/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/B/)
 
 Игра «Тренажёр для скоростной печати» представляет собой поле из клавиш 4x4. 
 В нём на каждом раунде появляется конфигурация цифр и точек. На клавише 
