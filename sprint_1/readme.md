@@ -364,10 +364,11 @@
 
 <details>
 <summary>
-<b>Ближайший ноль Финальная задача</b>
+<b><a href="/sprint_1/finals/taskA.js">Ближайший ноль | Финальная задача №1</a></b>
 </summary>
 
-#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/A/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22450/problems/A/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22450/run-report/107483869/)
 
 Тимофей ищет место, чтобы построить себе дом. Улица, на которой он хочет жить, 
 имеет длину n, то есть состоит из n одинаковых идущих подряд участков. 
@@ -415,10 +416,11 @@
 
 <details>
 <summary>
-<b>Ловкость рук Финальная задача</b>
+<b><a href="/sprint_1/finals/taskB.js">Ловкость рук | Финальная задача №2</a></b>
 </summary>
 
-#### Условие: [Ссылка](https://contest.yandex.ru/contest/22449/problems/B/)
+#### Условие: [Ссылка](https://contest.yandex.ru/contest/22450/problems/B/)
+#### Отчет: [Ссылка](https://contest.yandex.ru/contest/22450/run-report/107483770/)
 
 Игра «Тренажёр для скоростной печати» представляет собой поле из клавиш 4x4. 
 В нём на каждом раунде появляется конфигурация цифр и точек. На клавише 
