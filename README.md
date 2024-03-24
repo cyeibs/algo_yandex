@@ -4,7 +4,7 @@
 
 <details>
 <summary>
-<b>Значения функции </b>
+<b><a href="/sprint_1/1_functionsResult.js">Значения функции</a></b>
 </summary>
 
 #### Условие: 
@@ -63,7 +63,7 @@
 
 <details>
 <summary>
-<b>Чётные и нечётные числа </b>
+<b><a href="/sprint_1/2_evenOdds.js">Чётные и нечётные числа</a></b>
 </summary>
 
 #### Условие:
@@ -135,7 +135,7 @@
 
 <details>
 <summary>
-<b>Соседи</b>
+<b><a href="/sprint_1/3_neighbours.js">Соседи</a></b>
 </summary>
 
 #### Условие:
@@ -188,7 +188,7 @@
 
 <details>
 <summary>
-<b>Хаотичность погоды</b>
+<b><a href="/sprint_1/4_weatherChaotic.js">Хаотичность погоды</a></b>
 </summary>
 
 #### Условие:
@@ -237,7 +237,7 @@
 
 <details>
 <summary>
-<b>Самое длинное слово</b>
+<b><a href="/sprint_1/5_theLongestWord.js">Самое длинное слово</a></b>
 </summary>
 
 #### Условие:
@@ -283,7 +283,7 @@
 
 <details>
 <summary>
-<b>Палиндром</b>
+<b><a href="/sprint_1/6_palindrom.js">Палиндром</a></b>
 </summary>
 
 #### Условие:
@@ -325,7 +325,7 @@
 
 <details>
 <summary>
-<b>Работа из дома</b>
+<b><a href="/sprint_1/7_remoteWork.js">Работа из дома</a></b>
 </summary>
 
 #### Условие:
