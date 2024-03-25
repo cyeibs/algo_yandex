@@ -382,7 +382,7 @@
 <details>
 <summary>
 <strong>Двоичная система</strong>
-</summary>
+</summary><br/>
 
 [`Условие`](https://contest.yandex.ru/contest/22449/problems/H/)
 ```
@@ -427,7 +427,7 @@
 <details>
 <summary>
 <strong>Степень четырёх</strong>
-</summary>
+</summary><br/>
 
 [`Условие`](https://contest.yandex.ru/contest/22449/problems/I/)
 ```
@@ -470,7 +470,7 @@
 <details>
 <summary>
 <strong>Факторизация</strong>
-</summary>
+</summary><br/>
 
 [`Условие`](https://contest.yandex.ru/contest/22449/problems/J/)
 ```
@@ -514,7 +514,7 @@
 <details>
 <summary>
 <strong>Списочная форма</strong>
-</summary>
+</summary><br/>
 
 [`Условие`](https://contest.yandex.ru/contest/22449/problems/K/)
 ```
@@ -561,7 +561,7 @@
 <details>
 <summary>
 <strong>Лишняя буква</strong>
-</summary>
+</summary><br/>
 
 [`Условие`](https://contest.yandex.ru/contest/22449/problems/L/)
 ```
