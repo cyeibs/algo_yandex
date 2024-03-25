@@ -384,7 +384,7 @@
 <strong>Двоичная система</strong>
 </summary>
 
-[`Условие`](https://contest.yandex.ru/contest/23389/problems/H/)
+[`Условие`](https://contest.yandex.ru/contest/22449/problems/H/)
 ```
 Тимофей записал два числа в двоичной системе счисления и попросил Гошу 
 вывести их сумму, также в двоичной системе. Встроенную в язык 
@@ -429,7 +429,7 @@
 <strong>Степень четырёх</strong>
 </summary>
 
-[`Условие`](https://contest.yandex.ru/contest/23389/problems/I/)
+[`Условие`](https://contest.yandex.ru/contest/22449/problems/I/)
 ```
 Напишите программу, которая определяет, будет ли положительное целое число 
 степенью четвёрки.
@@ -472,7 +472,7 @@
 <strong>Факторизация</strong>
 </summary>
 
-[`Условие`](https://contest.yandex.ru/contest/23389/problems/J/)
+[`Условие`](https://contest.yandex.ru/contest/22449/problems/J/)
 ```
 Основная теорема арифметики говорит: любое число раскладывается на 
 произведение простых множителей единственным образом, с точностью до их 
@@ -516,7 +516,7 @@
 <strong>Списочная форма</strong>
 </summary>
 
-[`Условие`](https://contest.yandex.ru/contest/23389/problems/K/)
+[`Условие`](https://contest.yandex.ru/contest/22449/problems/K/)
 ```
 Вася просил Аллу помочь решить задачу. На этот раз по информатике.
 Для неотрицательного целого числа X списочная форма –— это массив его 
@@ -563,7 +563,7 @@
 <strong>Лишняя буква</strong>
 </summary>
 
-[`Условие`](https://contest.yandex.ru/contest/23389/problems/L/)
+[`Условие`](https://contest.yandex.ru/contest/22449/problems/L/)
 ```
 Васе очень нравятся задачи про строки, поэтому он придумал свою. 
 Есть 2 строки s и t, состоящие только из строчных букв. Строка t 
