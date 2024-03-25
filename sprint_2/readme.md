@@ -6,7 +6,7 @@
 <strong>Мониторинг</strong>
 </summary>
 
-[`Решение`](/sprint_2/1_montoring.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107657161/)
+[`Решение`](/sprint_2/1_monitoring.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107657161/)
 
 ```
 Алла получила задание, связанное с мониторингом работы различных серверов. 
