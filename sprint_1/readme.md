@@ -3,7 +3,7 @@
 <details>
 <summary>
 <strong>Значения функции</strong>
-</summary>
+</summary><br/>
 
  [`Решение`](/sprint_1/1_functionsResult.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107335505/)
 
@@ -67,7 +67,7 @@
 <details>
 <summary>
 <strong>Чётные и нечётные числа</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/2_evenOdds.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/B/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107338450/)
 
@@ -144,7 +144,7 @@
 <details>
 <summary>
 <strong>Соседи</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/3_neighbours.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/C/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107344288/)
 ```
@@ -199,7 +199,7 @@
 <details>
 <summary>
 <strong>Хаотичность погоды</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/4_weatherChaotic.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/D/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107349195/)
 ```
@@ -249,7 +249,7 @@
 <details>
 <summary>
 <strong>Самое длинное слово</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/5_theLongestWord.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/E/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107350977/)
 ```
@@ -296,7 +296,7 @@
 <details>
 <summary>
 <strong>Палиндром</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/6_palindrom.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/F/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/107415536/)
 
@@ -340,7 +340,7 @@
 <details>
 <summary>
 <strong>Работа из дома</strong>
-</summary>
+</summary><br/>
   
 [`Решение`](/sprint_1/7_remoteWork.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/G/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/108309836/)
 ```
@@ -382,7 +382,7 @@
 <details>
 <summary>
 <strong>Ближайший ноль | Финальная задача №1</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/finals/taskA.js) | [`Условие`](https://contest.yandex.ru/contest/22450/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22450/run-report/107483869/)
 ```
@@ -435,7 +435,7 @@
 <details>
 <summary>
 <strong>Ловкость рук | Финальная задача №2</strong>
-</summary>
+</summary><br/>
 
 [`Решение`](/sprint_1/finals/taskB.js) | [`Условие`](https://contest.yandex.ru/contest/22450/problems/B/) | [`Отчет`](https://contest.yandex.ru/contest/22450/run-report/107483770/)
 ```
