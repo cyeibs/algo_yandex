@@ -4,7 +4,7 @@
 <details>
 <summary>
 <strong>Мониторинг</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/1_monitoring.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107657161/)
 
@@ -62,7 +62,7 @@
 <details>
 <summary>
 <strong>Список дел</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/2_todosList.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/B/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107657965/)
 ```
@@ -88,7 +88,7 @@
 <details>
 <summary>
 <strong>Нелюбимое дел</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/3_unfavoriteJob.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/C/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107660350/) |
 ```
@@ -118,7 +118,7 @@
 <details>
 <summary>
 <strong>Заботливая мама</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/4_carefulMom.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/D/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107665701/)
 ```
@@ -146,7 +146,7 @@
 <details>
 <summary>
 <strong>Всё наоборот</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/5_inOpposite.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/E/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107673855/)
 ```
@@ -174,7 +174,7 @@
 <details>
 <summary>
 <strong>Стек - Max</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/6_stackMax.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/F/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107676742/)
 ```
@@ -232,7 +232,7 @@
 <details>
 <summary>
 <strong>Стек - MaxEffective</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/7_stackMaxEffective.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/G/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/107700525/)
 ```
@@ -299,7 +299,7 @@ None
 <details>
 <summary>
 <strong>Скобочная последовательность</strong>
-</summary>
+</summary><br>
 
  [`Условие`](https://contest.yandex.ru/contest/23758/problems/H/) 
 ```
@@ -350,7 +350,7 @@ None
 <details>
 <summary>
 <strong>Ограниченная очередь</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/9_limitedQueue.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/I/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/108124460/)
 ```
@@ -414,7 +414,7 @@ None
 <details>
 <summary>
 <strong>Списочная очередь</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/10_listedQueue.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/J/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/108135114/)
 ```
@@ -474,7 +474,7 @@ None
 <details>
 <summary>
 <strong>Рекурсивные числа Фибоначчи</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/11_recursiveFibbonachi.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/K/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/108147214/)
 ```
@@ -518,7 +518,7 @@ None
 <details>
 <summary>
 <strong>Фибоначчи по модулю</strong>
-</summary>
+</summary><br>
 
 [`Условие`](https://contest.yandex.ru/contest/22779/problems/L/)
 ```
@@ -571,7 +571,7 @@ None
 <details>
 <summary>
 <strong>Дек | Финальная задача №1</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/finals/taskA.js) | [`Условие`](https://contest.yandex.ru/contest/22781/problems/A/) | [`Отчет`](https://contest.yandex.ru/contest/22781/run-report/108230804/)
 ```
@@ -628,7 +628,7 @@ Value — целое число, по модулю не превосходяще
 <details>
 <summary>
 <strong>Калькулятор | Финальная задача №2</strong>
-</summary>
+</summary><br>
 
 [`Решение`](/sprint_2/finals/taskB.js) | [`Условие`](https://contest.yandex.ru/contest/22781/problems/B/) | [`Отчет`](https://contest.yandex.ru/contest/22781/run-report/108230984/)
 
