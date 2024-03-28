@@ -305,7 +305,7 @@ None
 <strong>Скобочная последовательность</strong>
 </summary><br>
 
- [`Условие`](https://contest.yandex.ru/contest/23758/problems/H/) 
+ [`Решение`](/sprint_2/8_bracketSequence.js) | [`Условие`](https://contest.yandex.ru/contest/23758/problems/H/) | [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/110803448/)
 ```
 Вот какую задачу Тимофей предложил на собеседовании одному из кандидатов. 
 Если вы с ней ещё не сталкивались, то наверняка столкнётесь –— она довольно 
@@ -525,7 +525,7 @@ None
 <strong>Фибоначчи по модулю</strong>
 </summary><br>
 
-[`Условие`](https://contest.yandex.ru/contest/22779/problems/L/)
+ [`Решение`](/sprint_2/12_fibModule.js) | [`Условие`](https://contest.yandex.ru/contest/22779/problems/L/) |  [`Отчет`](https://contest.yandex.ru/contest/22779/run-report/110803040/)
 ```
 У Тимофея было очень много стажёров, целых N (0 ≤ N ≤ 10^6) человек. Каждый 
 стажёр хотел быть лучше своих предшественников, поэтому i-й стажёр делал 
