@@ -384,7 +384,7 @@
 <strong>Двоичная система</strong>
 </summary><br/>
 
-[`Условие`](https://contest.yandex.ru/contest/22449/problems/H/)
+[`Решение`](/sprint_1/8_binarySystem.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/H/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/110784175/) 
 ```
 Тимофей записал два числа в двоичной системе счисления и попросил Гошу 
 вывести их сумму, также в двоичной системе. Встроенную в язык 
@@ -429,7 +429,7 @@
 <strong>Степень четырёх</strong>
 </summary><br/>
 
-[`Условие`](https://contest.yandex.ru/contest/22449/problems/I/)
+[`Решение`](/sprint_1/9_powerOfFour.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/I/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/110784852/)
 ```
 Напишите программу, которая определяет, будет ли положительное целое число 
 степенью четвёрки.
@@ -472,7 +472,7 @@
 <strong>Факторизация</strong>
 </summary><br/>
 
-[`Условие`](https://contest.yandex.ru/contest/22449/problems/J/)
+[`Решение`](/sprint_1/10_factorizing.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/J/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/110786319/)
 ```
 Основная теорема арифметики говорит: любое число раскладывается на 
 произведение простых множителей единственным образом, с точностью до их 
@@ -516,7 +516,7 @@
 <strong>Списочная форма</strong>
 </summary><br/>
 
-[`Условие`](https://contest.yandex.ru/contest/22449/problems/K/)
+[`Решение`](/sprint_1/11_listedForm.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/K/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/110793551/)
 ```
 Вася просил Аллу помочь решить задачу. На этот раз по информатике.
 Для неотрицательного целого числа X списочная форма –— это массив его 
@@ -563,7 +563,7 @@
 <strong>Лишняя буква</strong>
 </summary><br/>
 
-[`Условие`](https://contest.yandex.ru/contest/22449/problems/L/)
+[`Решение`](/sprint_1/12_extraLetter.js) | [`Условие`](https://contest.yandex.ru/contest/22449/problems/L/) | [`Отчет`](https://contest.yandex.ru/contest/22449/run-report/110795258/)
 ```
 Васе очень нравятся задачи про строки, поэтому он придумал свою. 
 Есть 2 строки s и t, состоящие только из строчных букв. Строка t 
