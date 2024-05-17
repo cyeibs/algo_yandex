@@ -9,6 +9,7 @@ let arr = [],
 
 inputInterface.on("line", function (line) {
   if (currentLine == 0) {
+    // right = Number(line);
   } else if (currentLine === 1) {
     arr = line.split(" ").map(Number);
     right = arr.length;

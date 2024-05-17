@@ -1,25 +1,40 @@
 const readline = require("readline");
 const inputInterface = readline.createInterface({ input: process.stdin });
 
+class Node {
+  constructor(value = null, next = null, prev = null) {
+    this.value = value;
+    this.next = next;
+    this.prev = prev;
+  }
+}
+
 class MyQueueSized {
   constructor() {
     this.queue = new Array();
     this.size = 0;
-    this.head = 0;
+    this.head = new Node();
+    this.tail = new Node();
   }
   put(x) {
-    this.queue.push(x);
-    this.size += 1;
+    let node = new Node(x, null);
+    if (this.size == 0) {
+      this.head = node;
+      this.tail = node;
+    } else {
+      this.tail.next = node;
+      this.tail = node;
+    }
+    this.size++;
   }
   get() {
     if (this.size == 0) {
       return "error";
     }
-    let x = this.queue[this.head];
-    this.queue[this.head] = null;
-    this.head = this.head + 1;
-    this.size -= 1;
-    return x;
+    let value = this.head.value;
+    this.head = this.head.next;
+    this.size--;
+    return value;
   }
 }
 

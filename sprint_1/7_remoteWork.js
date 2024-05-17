@@ -10,14 +10,15 @@ inputInterface.on("line", function (line) {
 process.stdin.on("end", solve);
 
 function toBinary(num) {
+  if (num === 0) return "0";
+
   let str = "";
-
-  while (num >= 1) {
-    str += Math.floor(num) % 2;
-    num = num / 2;
+  while (num > 0) {
+    let c = String(num % 2);
+    str = c + str;
+    num = Math.floor(num / 2);
   }
-
-  return +str.split("").reverse().join("");
+  return str;
 }
 
 function solve() {

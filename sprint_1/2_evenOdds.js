@@ -12,11 +12,11 @@ _reader.on("line", (line) => {
 
 process.stdin.on("end", solve);
 
-function isEvenOrOdd(array) {
-  let isEvenA = array[0] % 2 === 0;
-  let isEvenB = array[1] % 2 === 0;
-  let isEvenC = array[2] % 2 === 0;
-  if ((isEvenA && isEvenB && isEvenC) || (!isEvenA && !isEvenB && !isEvenC)) {
+function evenAndOdds(array) {
+  let y =
+    Math.abs(array[0] % 2) + Math.abs(array[1] % 2) + Math.abs(array[2] % 2);
+
+  if (y === 0 || y === 3) {
     return "WIN";
   } else {
     return "FAIL";
@@ -24,6 +24,7 @@ function isEvenOrOdd(array) {
 }
 
 function solve() {
-  const result = isEvenOrOdd(_inputLines);
-  process.stdout.write(`${result}`);
+  const array = _inputLines;
+  const ans = evenAndOdds(array);
+  process.stdout.write(`${ans}`);
 }

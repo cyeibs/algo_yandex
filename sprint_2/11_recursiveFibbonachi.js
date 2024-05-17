@@ -9,14 +9,14 @@ inputInterface.on("line", function (line) {
 
 process.stdin.on("end", solve);
 
-function getFibSum(num) {
+function getFibSum(num, lhs = 1, rhs = 1) {
   if (num === 0 || num === 1) {
-    return 1;
+    return rhs;
   }
-  return getFibSum(num - 1) + getFibSum(num - 2);
+  return getFibSum(num - 1, rhs, lhs + rhs);
 }
 
 function solve() {
-  const fibSum = getFibSum(num);
-  process.stdout.write(`${fibSum}`);
+  const fib = getFibSum(num);
+  process.stdout.write(`${fib}`);
 }

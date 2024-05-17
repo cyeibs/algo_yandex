@@ -12,22 +12,15 @@ _reader.on("line", (line) => {
 });
 
 function getFibModule(n, k) {
-  let ab = [1, 1];
   let d = 10 ** k;
-  let fib;
+  let lhs = 1;
+  let rhs = 1;
 
-  if (n < 2) {
-    fib = 1;
-  } else {
-    n -= 1;
-    for (let i = 0; i < n; i++) {
-      let s = (ab[0] + ab[1]) % d;
-      ab[0] = ab[1];
-      ab[1] = s;
-      fib = ab[1];
-    }
+  for (let i = 0; i < n; ++i) {
+    [lhs, rhs] = [rhs, lhs];
+    rhs = (lhs + rhs) % d;
   }
-  return fib;
+  return lhs;
 }
 
 process.stdin.on("end", solve);

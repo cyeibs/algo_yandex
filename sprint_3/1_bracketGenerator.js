@@ -10,27 +10,32 @@ inputInterface.on("line", function (line) {
 process.stdin.on("end", solve);
 
 function generateParenthesisInOrder(
-  n,
-  open = 0,
-  close = 0,
-  str = "",
-  arr = []
+  result = [],
+  current = "",
+  open = n,
+  close = 0
 ) {
-  if (str.length === n * 2) {
-    return arr.push(str);
+  if (open === 0 && close === 0) {
+    return result.push(current);
   }
 
-  if (open < n) {
-    generateParenthesisInOrder(n, open + 1, close, str + "(", arr);
+  if (open > 0) {
+    generateParenthesisInOrder(result, current + "(", open - 1, close + 1);
   }
-  if (close < open) {
-    generateParenthesisInOrder(n, open, close + 1, str + ")", arr);
+  if (close > 0) {
+    generateParenthesisInOrder(result, current + ")", open, close - 1);
   }
 
-  return arr.join("\n");
+  return result;
 }
 
 function solve() {
-  const parenthesisInOrder = generateParenthesisInOrder(parenthesisCount);
-  process.stdout.write(`${parenthesisInOrder}`);
+  const result = [];
+  const parenthesisInOrder = generateParenthesisInOrder(
+    result,
+    "",
+    parenthesisCount,
+    0
+  );
+  process.stdout.write(`${result.join("\n")}`);
 }

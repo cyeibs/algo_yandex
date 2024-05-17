@@ -19,29 +19,33 @@ _reader.on("line", (line) => {
 process.stdin.on("end", solve);
 
 function getBinarySum(num1, num2) {
-  let num1Bin = num1.toString(2);
-  console.log("num1Bin", num1Bin);
-  let num2Bin = num2.toString(2);
-
-  let maxLength = Math.max(num1Bin.length, num2Bin.length);
-  num1Bin = num1Bin.padStart(maxLength, "0");
-  num2Bin = num2Bin.padStart(maxLength, "0");
-
-  let carry = 0;
-  let sum = [];
-
-  for (let i = maxLength - 1; i >= 0; i--) {
-    let bit1 = parseInt(num1Bin.charAt(i), 2);
-    let bit2 = parseInt(num2Bin.charAt(i), 2);
-
-    let bitSum = bit1 + bit2 + carry;
-    sum.unshift(bitSum % 2);
-    carry = Math.floor(bitSum / 2);
+  if (num1.length < num2.length) {
+    [num1, num2] = [num2, num1];
   }
 
-  if (carry) sum.unshift(carry);
+  let delta = num1.length - num2.length;
+  num2 = num2.padStart(num1.length, "0");
 
-  return sum.join("");
+  let carry = 0;
+  let sum = "";
+
+  for (let i = num1.length - 1; i >= 0; i--) {
+    let bitSum = Number(num1[i]) + Number(num2[i]) + carry;
+    if (bitSum > 1) {
+      bitSum = bitSum - 2;
+      carry = 1;
+    } else {
+      carry = 0;
+    }
+
+    sum = bitSum + sum;
+  }
+
+  if (carry) {
+    sum = "1" + sum;
+  }
+
+  return sum;
 }
 
 function solve() {

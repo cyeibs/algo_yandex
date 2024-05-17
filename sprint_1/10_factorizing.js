@@ -11,23 +11,23 @@ _reader.on("line", (line) => {
 });
 
 function getFactor(num) {
-  let factors = [];
-  while (num % 2 === 0) {
-    factors.push(2);
-    num /= 2;
-  }
+  let prime_factors = [];
+  let div = 2;
 
-  let n = 3;
-  while (num !== 1) {
-    if (num % n === 0) {
-      factors.push(n);
-      num /= n;
+  while (div * div <= num) {
+    if (num % div) {
+      div++;
     } else {
-      n += 2;
+      num /= div;
+      prime_factors.push(div);
     }
   }
 
-  return factors.join(" ");
+  if (num > 1) {
+    prime_factors.push(num);
+  }
+
+  return prime_factors.join(" ");
 }
 
 process.stdin.on("end", solve);

@@ -8,22 +8,16 @@ if (process.env.REMOTE_JUDGE !== "true") {
   }
 }
 
-function solution(node) {
-  let temp = null;
-  let current = node;
+function solution(head) {
+  let node = head;
 
-  while (current !== null) {
-    temp = current.prev;
-    current.prev = current.next;
-    current.next = temp;
-    current = current.prev;
+  while (node !== null) {
+    [node["prev"], node["next"]] = [node["next"], node["prev"]];
+    head = node;
+    node = node.prev;
   }
 
-  if (temp !== null) {
-    node = temp.prev;
-  }
-
-  return node;
+  return head;
 }
 
 function test() {

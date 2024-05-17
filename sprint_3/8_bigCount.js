@@ -7,7 +7,7 @@ let currentLine = 0;
 inputInterface.on("line", function (line) {
   if (currentLine === 0) {
   } else if (currentLine === 1) {
-    array.push(...line.split(" ").map(Number));
+    array.push(...line.split(" "));
   }
   currentLine++;
 });
@@ -15,10 +15,7 @@ inputInterface.on("line", function (line) {
 process.stdin.on("end", solve);
 
 function getLargest(array) {
-  return array
-    .map(String)
-    .sort((a, b) => b + a - (a + b))
-    .join("");
+  return array.sort((a, b) => b + a - (a + b)).join("");
 }
 
 function solve() {
